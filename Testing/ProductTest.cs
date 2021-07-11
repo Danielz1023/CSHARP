@@ -5,7 +5,7 @@ namespace CSHARP.Testing
 {
     public class ProductTest
     {
-        public void test(){
+        public void testProduct(){
              List<Product> products = Product.GetSampleProducts();
              Predicate<Product>test = delegate(Product p ) { return p.Price > 10m;};
              List<Product>matches = products.FindAll(test);

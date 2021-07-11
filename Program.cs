@@ -2,6 +2,7 @@
 using CSHARP.Collections;
 using CSHARP.SortingFiltering;
 using CSHARP.Testing;
+using CSHARP.LINQ;
 namespace CSHARP
 {
     class Program
@@ -17,8 +18,11 @@ namespace CSHARP
             productNameComparer.Compare();*/
 
             //Test
-            ProductTest productTest = new ProductTest();
-            productTest.test();
+            /*ProductTest productTest = new ProductTest();
+            productTest.test();*/
+            XML xml = new XML();
+            xml.processXML();
+
         }
     }
 }
