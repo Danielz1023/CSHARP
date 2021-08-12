@@ -6,7 +6,7 @@ namespace CSHARP.COM
     public class SaveToExcelUsingCOM
     {
         public void save(){
-            var app = new Application { Visible = false};
+            /*var app = new Application { Visible = false};
             Workbook workbook = app.Workbooks.Add();
             Worksheet worksheet = app.ActiveSheet;
             int row = 1;
@@ -16,7 +16,7 @@ namespace CSHARP.COM
                 row++;
             }
             workbook.SaveAs(Filename: "demo.xls", FileFormat: XlFileFormt.xlWorkbookNormal);
-            app.Application.Quit();
+            app.Application.Quit();*/
         }
     }
 }

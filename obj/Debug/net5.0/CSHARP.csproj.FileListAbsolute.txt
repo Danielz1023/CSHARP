@@ -1,0 +1,15 @@
+/Users/mac/Dani/Software Development/CSHARP/obj/Debug/net5.0/CSHARP.csproj.AssemblyReference.cache
+/Users/mac/Dani/Software Development/CSHARP/obj/Debug/net5.0/CSHARP.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mac/Dani/Software Development/CSHARP/obj/Debug/net5.0/CSHARP.AssemblyInfoInputs.cache
+/Users/mac/Dani/Software Development/CSHARP/obj/Debug/net5.0/CSHARP.AssemblyInfo.cs
+/Users/mac/Dani/Software Development/CSHARP/obj/Debug/net5.0/CSHARP.csproj.CoreCompileInputs.cache
+/Users/mac/Dani/Software Development/CSHARP/bin/Debug/net5.0/CSHARP.deps.json
+/Users/mac/Dani/Software Development/CSHARP/bin/Debug/net5.0/CSHARP.runtimeconfig.json
+/Users/mac/Dani/Software Development/CSHARP/bin/Debug/net5.0/CSHARP.runtimeconfig.dev.json
+/Users/mac/Dani/Software Development/CSHARP/bin/Debug/net5.0/CSHARP.dll
+/Users/mac/Dani/Software Development/CSHARP/bin/Debug/net5.0/ref/CSHARP.dll
+/Users/mac/Dani/Software Development/CSHARP/bin/Debug/net5.0/CSHARP.pdb
+/Users/mac/Dani/Software Development/CSHARP/obj/Debug/net5.0/CSHARP.dll
+/Users/mac/Dani/Software Development/CSHARP/obj/Debug/net5.0/ref/CSHARP.dll
+/Users/mac/Dani/Software Development/CSHARP/obj/Debug/net5.0/CSHARP.pdb
+/Users/mac/Dani/Software Development/CSHARP/obj/Debug/net5.0/CSHARP.genruntimeconfig.cache
