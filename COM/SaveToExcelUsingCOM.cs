@@ -12,7 +12,7 @@ namespace CSHARP.COM
             int row = 1;
             foreach(var product in Product.GetSampleProducts().Where(p => p.Price != null)){
                 worksheet.Cells[row,1].Value = product.Name;
-                worksheet.Cells[row,1].Value = product.Price;
+                worksheet.Cells[row,2].Value = product.Price;
                 row++;
             }
             workbook.SaveAs(Filename: "demo.xls", FileFormat: XlFileFormt.xlWorkbookNormal);
