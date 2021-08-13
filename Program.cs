@@ -6,6 +6,7 @@ using CSHARP.LINQ;
 using CSHARP.Delegates;
 using CSHARP.Multithreading;
 using System.Threading.Tasks;
+using System.Collections.Generic;
 
 namespace CSHARP
 {
@@ -13,7 +14,6 @@ namespace CSHARP
     {
         static async Task Main(string[] args)
         {
-            //Collections
             /*Product p = new Product(name: "Test",price: 13.33m);
             System.Console.WriteLine(p.ToString());
 
@@ -45,8 +45,21 @@ namespace CSHARP
            //Async async = new Async();
            //await async.execute();
 
-           AsyncWithParallel asyncWithParallel = new AsyncWithParallel();
-           await asyncWithParallel.execute();
+           //AsyncParallel
+           //AsyncWithParallel asyncWithParallel = new AsyncWithParallel();
+           //await asyncWithParallel.execute();
+
+           //Dictionary
+           /*string text = @"Do you like green eggs and ham?
+                            I do not like them, Sam-I-am.
+                            I do not like green eggs and ham.";
+           Dictionary<string,int> frequencies = Dictionary.CountWords(text);
+           foreach(KeyValuePair<string, int> entry in frequencies){
+               string word = entry.Key;
+               int frequency = entry.Value;
+               System.Console.WriteLine("{0} : {1} ",word,frequency);
+            }*/
+            
         }
     }
 }
