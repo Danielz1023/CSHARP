@@ -7,6 +7,7 @@ using CSHARP.Delegates;
 using CSHARP.Multithreading;
 using System.Threading.Tasks;
 using System.Collections.Generic;
+using CSHARP.Generics;
 
 namespace CSHARP
 {
@@ -60,6 +61,8 @@ namespace CSHARP
                System.Console.WriteLine("{0} : {1} ",word,frequency);
             }*/
             
+            //Generics
+            ListGeneric.run();
         }
     }
 }
