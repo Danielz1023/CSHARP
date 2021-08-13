@@ -8,6 +8,7 @@ using CSHARP.Multithreading;
 using System.Threading.Tasks;
 using System.Collections.Generic;
 using CSHARP.Generics;
+using CSHARP.Iterator;
 
 namespace CSHARP
 {
@@ -62,7 +63,20 @@ namespace CSHARP
             }*/
             
             //Generics
-            ListGeneric.run();
+            //ListGeneric.run();
+
+            //Reference comparison
+            /*string name = "Daniel";
+            string intro1 = "My name is " + name;
+            string intro2 = "My name is " + name;
+            System.Console.WriteLine(intro1 == intro2);
+            System.Console.WriteLine(RefComparison.AreReferenceEqual(intro1,intro2));*/
+
+            //Generic iterator
+            GenericIterator counter = new GenericIterator();
+            foreach(int x in counter){
+                System.Console.WriteLine(x);
+            }
         }
     }
 }
