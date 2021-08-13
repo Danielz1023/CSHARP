@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Collections.Generic;
 using CSHARP.Generics;
 using CSHARP.Iterator;
+using CSHARP.Nullable;
 
 namespace CSHARP
 {
@@ -73,10 +74,15 @@ namespace CSHARP
             System.Console.WriteLine(RefComparison.AreReferenceEqual(intro1,intro2));*/
 
             //Generic iterator
-            GenericIterator counter = new GenericIterator();
+            /*GenericIterator counter = new GenericIterator();
             foreach(int x in counter){
                 System.Console.WriteLine(x);
-            }
+            }*/
+
+            //Nullable
+            NullablePerson turing = new NullablePerson("Alan Turing",new DateTime(1912,6,23),new DateTime(1954,6,7));
+            NullablePerson knuth = new NullablePerson("Donald Knuth", new DateTime(1938,1,10),null);
+
         }
     }
 }
