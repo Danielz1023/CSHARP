@@ -10,6 +10,7 @@ using System.Collections.Generic;
 using CSHARP.Generics;
 using CSHARP.Iterator;
 using CSHARP.Nullable;
+using CSHARP.DesignPatterns.Creational;
 
 namespace CSHARP
 {
@@ -80,9 +81,18 @@ namespace CSHARP
             }*/
 
             //Nullable
-            NullablePerson turing = new NullablePerson("Alan Turing",new DateTime(1912,6,23),new DateTime(1954,6,7));
-            NullablePerson knuth = new NullablePerson("Donald Knuth", new DateTime(1938,1,10),null);
+            /*NullablePerson turing = new NullablePerson("Alan Turing",new DateTime(1912,6,23),new DateTime(1954,6,7));
+            NullablePerson knuth = new NullablePerson("Donald Knuth", new DateTime(1938,1,10),null);*/
 
+            //Abstract Factory Design Pattern
+            /*VictorianFurnitureFactory victorianFurnitureFactory = new VictorianFurnitureFactory();
+            Client client = new Client(victorianFurnitureFactory);
+
+            var victorianChair = client.sitOnChair();
+            var victorianSofa = client.sitOnSofa();
+
+            System.Console.WriteLine(victorianSofa.sitOn());
+            System.Console.WriteLine(victorianChair.sitOn());*/
         }
     }
 }
