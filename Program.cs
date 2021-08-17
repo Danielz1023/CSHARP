@@ -93,6 +93,9 @@ namespace CSHARP
 
             System.Console.WriteLine(victorianSofa.sitOn());
             System.Console.WriteLine(victorianChair.sitOn());*/
+
+            Factory factory = new Factory();
+            factory.run();
         }
     }
 }
